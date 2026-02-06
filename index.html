@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delcia Audio & Visuals | Premium AV Solutions</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.jpg" alt="Delcia Audio & Visuals Logo"
+                    style="height: 50px; width: auto; border-radius: 4px; margin-right: 15px;">
+                <div class="logo-text">DELCIA <span
+                        style="font-size: 0.8rem; display: block; color: var(--text-muted); letter-spacing: 2px;">Audio
+                        & Visuals</span></div>
+            </a>
+            <button class="mobile-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#brands">Brands</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://wa.me/971552923102?text=Hi,%20I'd%20like%20to%20request%20a%20quote."
+                        target="_blank" class="btn nav-btn">Get Quote <i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Experience Sound & Vision <br><span>Like Never Before</span></h1>
+            <p>Your premier partner for professional Audio, Visual, and Automation systems. We design, supply, and
+                install world-class commercial and residential AV solutions.</p>
+            <div class="hero-btns">
+                <a href="services.html" class="btn btn-primary">Our Services</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission / About Section -->
+    <section id="about" class="mission">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Mission</h2>
+                <p style="color: var(--text-muted); margin-top: 10px;">Why we do what we do</p>
+            </div>
+            <div class="mission-grid">
+                <div class="mission-text">
+                    <p>Audiovisual is everything – hardware and software – that captures and uses audio and visual
+                        components. AV equipment can include everything from a single wired microphone and speaker at a
+                        PTA picnic to multi-million dollar cameras, sound mixers, video switchers, and lighting rigs for
+                        concerts.</p>
+                    <div class="mission-highlight">
+                        "Our goal is to provide our valued customer with a level of service that you can trust and rely
+                        on completely."
+                    </div>
+                </div>
+                <div class="mission-text">
+                    <p>Delcia Audio Visuals likes to share our experience, knowledge in selection and implementation of
+                        appropriate audio visual systems for all kind of professional AV needs.</p>
+                    <p>We are one of the qualified and experienced audio visual turnkey integrators based in United Arab
+                        Emirates offering design, integration, supply and installation of all kinds of commercial and
+                        residential audio visual systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Grid -->
+    <section id="brands" class="brands">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Trusted Brands</h2>
+            </div>
+            <!-- Simulating the brands from the image -->
+            <div class="brands-grid">
+                <div class="brand-item">JBL</div>
+                <div class="brand-item">BOSE</div>
+                <div class="brand-item">YAMAHA</div>
+                <div class="brand-item">SENNHEISER</div>
+                <div class="brand-item">SHURE</div>
+                <div class="brand-item">EPSON</div>
+                <div class="brand-item">NEC</div>
+                <div class="brand-item">CRESTRON</div>
+                <div class="brand-item">POLYCOM</div>
+                <div class="brand-item">SONY</div>
+                <div class="brand-item">CHRISTIE</div>
+                <div class="brand-item">EXTRON</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Ready to upgrade your AV experience?</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 30px;">Contact us today for a consultation or
+                        quote. Our team is ready to assist you with your projects.</p>
+
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p style="color: var(--text-muted);">United Arab Emirates</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p style="color: var(--text-muted);">info@delciaav.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p style="color: var(--text-muted);">+971 50 123 4567</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm" action="#" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Service Interested</label>
+                            <select id="service"
+                                style="width: 100%; padding: 12px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; border-radius: 4px;">
+                                <option value="General">General Inquiry</option>
+                                <option value="Audio Systems">Audio Systems</option>
+                                <option value="Home Theatre">Home Theatre</option>
+                                <option value="Security">CCTV / Security</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="message" rows="4" placeholder="How can we help?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>DELCIA AV</h2>
+                    <p style="color: var(--text-muted); max-width: 300px;">Delivering quality and satisfaction through
+                        meticulous product selection and professional integration.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Delcia Audio and Visuals. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
