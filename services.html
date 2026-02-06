@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=block"
     rel="stylesheet" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -22,21 +22,11 @@
   <header>
     <div class="container">
       <a href="index.html" class="logo">
-        <img src="logo.jpg" alt="Delcia Audio & Visuals Logo" style="
-              height: 50px;
-              width: auto;
-              border-radius: 4px;
-              margin-right: 15px;
-            " />
-        <div class="logo-text">
-          DELCIA
-          <span style="
-                font-size: 0.8rem;
-                display: block;
-                color: var(--text-muted);
-                letter-spacing: 2px;
-              ">Audio & Visuals</span>
-        </div>
+        <img src="logo.jpg" alt="Delcia Audio & Visuals Logo" width="50" height="50"
+          style="height: 50px; width: auto; border-radius: 4px; margin-right: 15px;">
+        <div class="logo-text">DELCIA <span
+            style="font-size: 0.8rem; display: block; color: var(--text-muted); letter-spacing: 2px;">Audio
+            & Visuals</span></div>
       </a>
       <button class="mobile-toggle" onclick="toggleMenu()">
         <i class="fas fa-bars"></i>
@@ -44,6 +34,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="index.html#about">About</a></li>
         <li><a href="index.html#brands">Brands</a></li>
         <li><a href="index.html#contact">Contact</a></li>
         <li>
